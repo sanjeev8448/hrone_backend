@@ -4,23 +4,8 @@ This is a backend API developed using FastAPI and MongoDB for the HROne Backend 
 
 ---
 
-## Project Structure
 
-hrone_backend/
-├── app/
-│ ├── main.py # FastAPI entry point
-│ ├── config.py # Loads environment variables from .env
-│ ├── db.py # Connects to MongoDB using Motor
-│ ├── models/
-│ │ ├── product_model.py # Pydantic model for Product
-│ │ └── order_model.py # Pydantic model for Order
-│ ├── routes/
-│ │ ├── product_routes.py # Product APIs
-│ │ └── order_routes.py # Order APIs
-├── .env # MongoDB connection string (ignored in Git)
-├── .gitignore # Files/folders to exclude from Git
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
+
 
 
 
